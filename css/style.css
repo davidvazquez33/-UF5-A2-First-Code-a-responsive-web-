@@ -7,6 +7,12 @@
     font-style: normal;
     text-align: center;
 }
+.letrafontsincentrar {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
 
 .titulo {
     font-size: 60px;
@@ -57,3 +63,22 @@ header {
     text-align: center;
     padding: 1px;
  }
+
+ .row2 {
+    width: 100%;
+    display:flex;
+    justify-content: left;
+    text-align: justify;    
+}
+
+ .col2{
+    width: 50%;
+    margin-left: 10%;
+    align-items: left; 
+    text-align: justify;
+}
+
+.imgmaps {
+    width: 450px;
+    height: 300px;
+}

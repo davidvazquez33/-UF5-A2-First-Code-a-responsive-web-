@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poiret+One&display=swap');
+
+.letrafont {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 60px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+.subtitulo {
+    font-size: 38px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+
+.divgrandeimggitgub {
+    width: 100%;
+    display:flex;
+}
+
+.div33 {
+    width: 33%;
+    align-items: center; 
+    text-align: center;
+}
+.imggit {
+    width: 55%;
+    height: 75%;
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    text-align: center;
+ }
+
+.headimg {
+
+}

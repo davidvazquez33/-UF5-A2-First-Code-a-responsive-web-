@@ -39,19 +39,21 @@
     text-align: center;
 }
 
-.divgrandeimggitgub {
-    width: 100%;
-    display:flex;
+.row {
+    display: flex;
 }
 
+
 .div33 {
-    width: 33%;
-    align-items: center; 
-    text-align: center;
+    width: 33.33%;
+    float: left;
+    padding: 6%;
+    margin: 20px;
 }
+
 .imggit {
-    width: 50%;
-    height: 82%;
+    width: 250px;
+    height: 250px;
 }
 
 header {
@@ -111,10 +113,37 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .divgrandeimggitgub {
+    .row2 {
         width: 100%;
-        display: flex;
+        display: block;
+        justify-content: left;
+        text-align: justify;    
     }
-    
+    .col2{
+        width: 100%;
+        align-items: left; 
+        text-align: justify;
+    }
+        .imggit{
+            width: 200%;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+                width: 200px;
+                height: 200px;
+        }
+        .div33 {
+            width: 30%;
+        }
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
 
-  }
+        .gitdedosendos {
+        float:left;
+
+    }
+}
+
+  

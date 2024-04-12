@@ -36,8 +36,8 @@
     text-align: center;
 }
 .imggit {
-    width: 55%;
-    height: 75%;
+    width: 50%;
+    height: 82%;
 }
 
 header {
@@ -46,6 +46,14 @@ header {
     text-align: center;
  }
 
-.headimg {
-
-}
+ .feedbackstyle {
+    background-color: rgb(1, 122, 138);
+    text-align: center;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    padding: 1px;
+ }

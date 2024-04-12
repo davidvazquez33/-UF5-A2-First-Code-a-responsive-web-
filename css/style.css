@@ -86,7 +86,7 @@ header {
     text-align: justify;
 }
 
-.imgmaps {
+.mapa {
     width: 450px;
     height: 300px;
 }
@@ -110,3 +110,11 @@ footer {
     padding: 8px;
 }
 
+@media screen and (max-width: 600px) {
+    .divgrandeimggitgub {
+        width: 100%;
+        display: flex;
+    }
+    
+
+  }
